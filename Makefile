@@ -2,8 +2,8 @@ TARGET = main
 
 OUTDIR=./build/out
 
-CC=clang++
-CFLAGS = -std=c++20 -Iinclude
+CC=g++
+CFLAGS = -Iinclude
 
 objects = main.o game.o
 
